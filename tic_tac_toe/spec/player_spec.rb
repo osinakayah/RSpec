@@ -1,4 +1,4 @@
-require './player.rb'
+require_relative '../lib/player'
 describe Player do
   before(:each) do
     @player = Player.new("Osi", 1)
