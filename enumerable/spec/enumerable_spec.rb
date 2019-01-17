@@ -1,4 +1,4 @@
-
+require_relative '../lib/enumerable'
 describe Enumerable do
   let(:arr) { [1,2,3,4]}
 
